@@ -1,0 +1,1 @@
+prime_numbers = [2] + [x for x in range(3, 1000, 2) if all(x % i != 0 for i in range(3, x, 2))]
